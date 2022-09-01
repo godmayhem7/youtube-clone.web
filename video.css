@@ -1,0 +1,70 @@
+.thumbnail1{
+    width: 100%;  
+}
+
+.video-row{
+    position:relative;
+    margin-bottom: 8px;
+}
+
+.video-time{
+    position:absolute;
+    color:white;
+    background-color: black;
+    bottom: 10px;
+    right:10px;
+    font-family:Roboto,Arial;
+    font-size:14px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.video-title{
+    display:inline-block;
+    margin-top: 0 ;
+    font-weight:bold;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+
+.video-author{
+    display:inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-info{
+    margin-bottom: 3px;
+}
+
+.video-info-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+.channel-picture{
+    vertical-align: top;
+}
+
+.profile-picture{
+    width:36px;
+    border-radius: 25px;
+}
+
+.video-stats{
+    margin-top: 2px;
+}
+.video-grid-container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+@media(max-width:900px) {
+    .video-grid-container{
+    grid-template-columns:1fr 1fr 
+}}

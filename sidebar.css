@@ -1,0 +1,27 @@
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:55px;
+    background-color: white;
+    width:75px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right-color: rgb(218, 218, 218);
+    z-index: 200;
+}
+
+.home-icon{
+    width:40px ;
+    cursor: pointer;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
